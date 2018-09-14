@@ -25,5 +25,41 @@ public class dynamicprograming1 {
       System.out.println("Masukkan nominal pecahan: ");
       int uang = input.nextInt();
       
+        while ( uang >= 5000)
+      {
+          uang = uang - 5000;
+          a++;
+      }
+        System.out.println("Banyak pecahan 5000 sebanyak " + a);
+      
+      while (uang >= 2000)
+      {
+          uang = uang - 2000;
+          b++;
+      }
+        System.out.println("Banyak pecahan 2000 sebanyak " + b);
+      
+      while (uang >= 1000)
+      {
+          uang = uang - 1000;
+          c++;
+      }
+        System.out.println("Banyak pecahan 1000 sebanyak " + c);
+      
+      while (uang >= 500)
+      {
+          uang = uang - 500;
+          d++;
+      }
+        System.out.println("Banyak pecahan 500 sebanyak " + d);
+      
+      while (uang >= 100)
+      {
+          uang = uang - 100;
+          e++;
+      }
+        System.out.println("Banyak pecahan 100 sebanyak " + e);
+
+      
         }
 }
