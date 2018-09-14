@@ -15,5 +15,15 @@ public class dynamicprograming1 {
       identitas = "Zara zeva az zurra / 40 / XRPL3";
         System.out.print("Nama / No.absen / Kelas " + identitas);
      
-    }
+           
+      Scanner input = new Scanner(System.in);
+    
+      int a = 0, b = 0, c = 0, d = 0, e = 0;
+      
+      int[] nominal = new int[] {100,500,1000,2000,5000};
+      
+      System.out.println("Masukkan nominal pecahan: ");
+      int uang = input.nextInt();
+      
+        }
 }
